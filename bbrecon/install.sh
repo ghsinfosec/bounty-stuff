@@ -14,7 +14,7 @@ mkdir recon
 mkdir tools
 
 wget https://go.dev/dl/go1.20.2.linux-amd64.tar.gz
-sudo tar -xzf go1.2.20.2.linux-amd64.tar.gz -C /usr/local
+sudo tar -xzf go1.20.2.linux-amd64.tar.gz -C /usr/local
 echo "export PATH=${HOME}/go/bin;/usr/local/go/bin:${PATH}" | sudo tee -a $HOME/.profile
 source $HOME/.profile
 
