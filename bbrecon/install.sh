@@ -28,10 +28,10 @@ git clone https://github.com/jhaddix/awsscrape.git
 cd
 
 /usr/local/go/bin/go install -u github.com/tomnomnom/assetfinder
-go install go/bin/go install github.com/tomnomnom/meg@latest
-go install go/bin/go install github.com/tomnomnom/httprobe@latest
-go install go/bin/go install -u github.com/tomnomnom/gf
-go install go/bin/go install github.com/tomnomnom/waybackurls@latest
+/usr/local/go/bin/go install github.com/tomnomnom/meg@latest
+/usr/local/go/bin/go install github.com/tomnomnom/httprobe@latest
+/usr/local/go/bin/go install -u github.com/tomnomnom/gf
+/usr/local/go/bin/go install github.com/tomnomnom/waybackurls@latest
 
 sudo ln -s $HOME/go/bin/waybackurls /usr/local/bin/waybackurls
 
