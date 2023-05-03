@@ -16,7 +16,7 @@ mkdir tools
 wget https://go.dev/dl/go1.20.2.linux-amd64.tar.gz
 sudo tar -xzf go1.20.2.linux-amd64.tar.gz -C /usr/local
 rm -f go1.20.2.linux-amd64.tar.gz
-echo "export PATH=${HOME}/go/bin;/usr/local/go/bin:${PATH}" | sudo tee -a $HOME/.bashrc
+echo "export PATH=/usr/local/go/bin:${PATH}" | sudo tee -a $HOME/.bashrc
 source $HOME/.bashrc
 
 cd tools
