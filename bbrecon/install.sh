@@ -27,17 +27,17 @@ git clone https://github.com/jhaddix/awsscrape.git
 
 cd
 
-go get -u github.com/tomnomnom/assetfinder
-go install github.com/tomnomnom/meg@latest
-go install github.com/tomnomnom/httprobe@latest
-go get -u github.com/tomnomnom/gf
-go install github.com/tomnomnom/waybackurls@latest
+/usr/local/go/bin/go install -u github.com/tomnomnom/assetfinder
+go install go/bin/go install github.com/tomnomnom/meg@latest
+go install go/bin/go install github.com/tomnomnom/httprobe@latest
+go install go/bin/go install -u github.com/tomnomnom/gf
+go install go/bin/go install github.com/tomnomnom/waybackurls@latest
 
 sudo ln -s $HOME/go/bin/waybackurls /usr/local/bin/waybackurls
 
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+/usr/local/go/bin/go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
-go install github.com/lc/gau/v2/cmd/gau@latest
+/usr/local/go/bin/go install github.com/lc/gau/v2/cmd/gau@latest
 
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 
