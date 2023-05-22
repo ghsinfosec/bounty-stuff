@@ -32,6 +32,7 @@ cd
 /usr/local/go/bin/go install github.com/tomnomnom/httprobe@latest
 /usr/local/go/bin/go install -u github.com/tomnomnom/gf
 /usr/local/go/bin/go install github.com/tomnomnom/waybackurls@latest
+/usr/local/go/bin/go install github.com/hahwul/dalfox/v2@latest
 
 sudo ln -s $HOME/go/bin/waybackurls /usr/local/bin/waybackurls
 
