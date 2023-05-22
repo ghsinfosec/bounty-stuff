@@ -10,6 +10,8 @@ sudo apt install python3-pip -y
 
 sudo apt install git -y
 
+sudo apt install ripgrep
+
 mkdir recon
 mkdir tools
 
