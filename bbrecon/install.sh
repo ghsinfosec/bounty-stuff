@@ -39,6 +39,7 @@ cd
 sudo ln -s $HOME/go/bin/waybackurls /usr/local/bin/waybackurls
 
 /usr/local/go/bin/go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+/usr/local/go/bin/go install -v github.com/projectdiscovery/notify/cmd/notify@latest
 
 /usr/local/go/bin/go install github.com/lc/gau/v2/cmd/gau@latest
 
